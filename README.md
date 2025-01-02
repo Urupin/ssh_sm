@@ -14,6 +14,7 @@ https://github.com/Urupin/ssh_sm
 Всё решение открытым кодом. Проверено на Ubuntu 22.04.
 
 ===========
+
 If you manage a large number of servers, this solution is for you. Now, you can open the desired server with a double click on its icon in a folder. There’s no need to remember passwords for each server or worry about them being leaked. You only need to remember one PIN code to access the entire infrastructure. Based on the servers configuration file `servers.conf`, the script generates server connection files and encrypts passwords with a single PIN code.
 
 - **Prepare a configuration file**: Create a `servers.conf` file following the provided template. If a key is used instead of a password for the connection, specify the path to the key in the file and set the parameter `use_key=yes`.  
